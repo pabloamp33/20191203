@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio1 {
 
 	/* 
@@ -31,6 +33,20 @@ public class Ejercicio1 {
 	 */
 
 	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int numero=0;
+		do {
+			System.out.println("Introduzca un número menor o igual a 3000");
+			numero=teclado.nextInt();
+		} while (numero<0 || numero>3000);
+		
+
+
+	    
+	        System.out.println("Error");
+
+	    
+		
 		
 	}
 	
